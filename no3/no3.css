@@ -1,0 +1,69 @@
+
+
+button[type="button"]:active {
+    background-color: #6570f0;
+}
+button[type="button"]:hover {
+    background-color: #f06565;
+    transform: translate(-20px);
+}
+
+h1[class = 'naslov'] {
+    font-family: monospace;
+    height: 400;
+    font-size: 50px;
+}
+
+
+.go_back{
+    width: 130px;
+    height: 70px;
+    font-family:Space Grotesk Space Grotesk;
+    font-size: 20px;
+    border-radius: 14px;
+    background: transparent;
+    border-color: #6570f0;
+    border: black solid 2px;
+    margin: 10px;
+}
+
+.normal_but {
+    width: 200px;
+    height: 100px;
+    font-family:Space Grotesk Space Grotesk;
+    font-size: 30px;
+    border-radius: 14px;
+    background: transparent;
+    border-color: #6570f0;
+    border: black solid 2px;
+    margin: 10px;
+}
+
+h1[class = 'naslov'] {
+    font-family: monospace;
+    height: 400;
+    font-size: 50px;
+}
+
+
+    
+    
+body {
+    background: linear-gradient(to right, #9914db, #db146a);
+    
+}
+
+input[id='rr'] {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 14px;
+    border: rgb(0, 0, 0) solid 2px; 
+    width: 100px;
+    height: 50px;
+    font-family: monospace;
+    transition: 0.1s all;
+    font-size: small;
+    margin: 10px;
+}

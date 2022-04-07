@@ -1,0 +1,125 @@
+.button {
+    padding: 25px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 14px;
+    border: rgb(0, 0, 0) solid 2px; 
+    width: 350px;
+    height: 110px;
+    font-family: monospace;
+    transition: 0.1s all;
+    font-size: xx-large;
+    margin: 10px;
+    
+}
+button[type="button"]:active {
+    background-color: #6570f0;
+}
+button[type="button"]:hover {
+    background-color: #f06565;
+    transform: translate(-20px);
+}
+
+h1[class = 'naslov'] {
+    font-family: monospace;
+    height: 400;
+    font-size: 50px;
+}
+
+
+
+body{
+    background: linear-gradient(to right, #f0e113, #ed882f);
+}
+
+
+
+
+.go_back:hover {
+    background-color: #6570f0;
+}
+.go_back:active {
+    background-color: #f06565;
+}
+
+.box_of_clicks {
+    padding: 25px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 47, 47);
+    border-radius: 14px;
+    border: silver solid 1px; 
+    width: 1000px;
+    height: 400px;
+    font-family: monospace;
+}
+
+.display_clicks {
+    width: 130px;
+    height: 70px;
+    font-family:Space Grotesk Space Grotesk;
+    font-size: 20px;
+    border-radius: 14px;
+    background: transparent;
+    border-color: #6570f0;
+    border: black solid 2px;
+    margin: 10px;
+
+}
+
+.time_cps {
+    width: 130px;
+    height: 70px;
+    font-family:Space Grotesk Space Grotesk;
+    font-size: 20px;
+    border-radius: 14px;
+    background: transparent;
+    border-color: #6570f0;
+    border: black solid 2px;
+    margin: 10px;
+}
+
+.cps {
+    width: 130px;
+    height: 70px;
+    font-family:Space Grotesk Space Grotesk;
+    font-size: 20px;
+    border-radius: 14px;
+    background: transparent;
+    border-color: #6570f0;
+    border: black solid 2px;
+    margin: 10px;
+
+}
+.reset {
+    width: 75px;
+    height: 70px;
+    font-family:Space Grotesk Space Grotesk;
+    font-size: 20px;
+    border-radius: 14px;
+    background: transparent;
+    border-color: #6570f0;
+    border: black solid 2px;
+    margin: 10px;
+}
+
+.go_back{
+    width: 130px;
+    height: 70px;
+    font-family:Space Grotesk Space Grotesk;
+    font-size: 20px;
+    border-radius: 14px;
+    background: transparent;
+    border-color: #6570f0;
+    border: black solid 2px;
+    margin: 10px;
+}
+
+h1[class = 'naslov'] {
+    font-family: monospace;
+    height: 400;
+    font-size: 50px;
+}

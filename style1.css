@@ -1,0 +1,56 @@
+button[type="button"] {
+    padding: 25px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 14px;
+    border: rgb(0, 0, 0) solid 2px; 
+    width: 350px;
+    height: 110px;
+    font-family: monospace;
+    transition: 0.1s all;
+    font-size: xx-large;
+    margin: 10px;
+}
+button[type="button"]:active {
+    background-color: #6570f0;
+}
+button[type="button"]:hover {
+    background-color: #f06565;
+    transform: translate(-20px);
+}
+
+h1[class = 'naslov'] {
+    font-family: monospace;
+    height: 400;
+    font-size: 50px;
+}
+
+body{
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+
+}
+
+body.not_a_admin{
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+body.admin{
+    background-image: url(/images/rr.jpg);
+}
+
+input[id='rr'] {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius: 14px;
+    border: rgb(0, 0, 0) solid 2px; 
+    width: 100px;
+    height: 50px;
+    font-family: monospace;
+    transition: 0.1s all;
+    font-size: small;
+    margin: 10px;
+}

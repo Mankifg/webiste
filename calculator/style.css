@@ -1,0 +1,93 @@
+body{
+    background-image: url(/images/n1.png);
+    background-size: 100%;
+}
+.ohisje {
+    width: 400px;
+    margin: auto;
+}
+h1[class = 'naslov'] {
+    font-family: monospace;
+    height: 400;
+    font-size: 50px;
+    color: white;
+}
+
+
+.odmikGor {
+    margin-top: 20px;
+    padding: 10px;
+    /* border: silver solid 1px; */
+}
+input[type="button"] {
+    padding: 25px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 14px;
+    border: silver solid 1px; 
+    width: 70px;
+    height: 70px;
+    font-family: monospace;
+    transition: 0.1s all;
+}
+input[type="button"]:hover {
+    background-color: #6570f0;
+}
+input[type="button"]:active {
+    background-color: #f06565;
+}
+input[type="text"] {
+    width: 289px;
+    height: 70px;
+    border-radius: 14px;
+    background-color: transparent;
+    color: white;
+    border: silver solid 1px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+input[type="submit"] {
+    width: 220px;
+    height: 70px;
+    font-family: monospace;
+    font-size: 25px;
+    border: silver solid 1px;
+    border-radius: 14px;
+    color: white;
+    background-color: transparent;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #6570f0;
+}
+input[type="submit"]:active {
+    background-color: #f06565;
+}
+
+
+.go_back {
+    padding: 25px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 14px;
+    border: silver solid 1px; 
+    width: 100px;
+    height: 100px;
+    font-family: monospace;
+    transition: 0.1s all;
+    margin-left: 13px;
+
+}
+.go_back:hover {
+    background-color: #6570f0;
+}
+.go_back:active {
+    background-color: #f06565;
+}
+
